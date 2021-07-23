@@ -21,5 +21,8 @@ class AddBusinessCardActivity : AppCompatActivity() {
         binding.btnBack.setOnClickListener{
             onBackPressed()
         }
+        binding.btnConfirm.setOnClickListener{
+            onBackPressed()
+        }
     }
 }
